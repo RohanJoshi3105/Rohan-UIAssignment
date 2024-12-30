@@ -1,22 +1,11 @@
 # Reward Points System
 
-## Overview
-
-This application is designed to manage customer transactions and calculate reward points based on their spending. It provides REST APIs to register customers, log in, manage transactions, and retrieve reward points.
-
-## Features
-
-- Customer registration and authentication
-- Adding, updating, retrieving, and deleting transactions
-- Calculating and fetching reward points
-
----
-
 ## Entity Models
 
 ### Customer
 Represents a customer in the system.
 
+```java
 @Entity
 public class Customer {
     @Id
@@ -30,6 +19,7 @@ public class Customer {
 CustomerTransaction
 Represents a transaction made by a customer.
 
+java
 
 @Entity
 public class CustomerTransaction {
@@ -46,6 +36,7 @@ public class CustomerTransaction {
 RewardPoints
 Tracks the reward points earned by a customer for a specific month and year.
 
+java
 
 @Entity
 public class RewardPoints {
