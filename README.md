@@ -1,5 +1,17 @@
 # Reward Points System
 
+## Overview
+
+This application is designed to manage customer transactions and calculate reward points based on their spending. It provides REST APIs to register customers, log in, manage transactions, and retrieve reward points.
+
+## Features
+
+### Customer registration and authentication
+
+### Adding, updating, retrieving, and deleting transactions
+
+### Calculating and fetching reward points
+
 ## Entity Models
 
 ### Customer
