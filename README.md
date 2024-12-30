@@ -16,7 +16,7 @@ This application is designed to manage customer transactions and calculate rewar
 
 ### Customer
 Represents a customer in the system.
-```java
+
 @Entity
 public class Customer {
     @Id
@@ -30,8 +30,7 @@ public class Customer {
 CustomerTransaction
 Represents a transaction made by a customer.
 
-java
-Copy code
+
 @Entity
 public class CustomerTransaction {
     @Id
@@ -47,8 +46,7 @@ public class CustomerTransaction {
 RewardPoints
 Tracks the reward points earned by a customer for a specific month and year.
 
-java
-Copy code
+
 @Entity
 public class RewardPoints {
     @Id
@@ -113,7 +111,7 @@ Customer Registration
 Request:
 
 json
-Copy code
+
 POST /api/customers/register
 {
     "name": "John Doe",
@@ -123,14 +121,14 @@ POST /api/customers/register
 Response:
 
 json
-Copy code
+
 200 OK
 "Customer registered successfully"
 Customer Login
 Request:
 
 json
-Copy code
+
 POST /api/customers/login
 {
     "email": "john.doe@example.com",
@@ -139,14 +137,14 @@ POST /api/customers/login
 Response:
 
 json
-Copy code
+
 200 OK
 "Customer logged in successfully"
 Add Transaction
 Request:
 
 json
-Copy code
+
 POST /api/transactions/add
 {
     "amount": 150.00,
@@ -158,19 +156,19 @@ POST /api/transactions/add
 Response:
 
 json
-Copy code
+
 200 OK
 "Successfully added customer transaction"
 Get Reward Points
 Request:
 
 json
-Copy code
+
 GET /api/reward-points/customer/1?month=12&year=2024
 Response:
 
 json
-Copy code
+
 200 OK
 [
     {
