@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.reward_points_system.controllers.RewardPointsControllerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.951 s -- in com.example.reward_points_system.controllers.RewardPointsControllerTest

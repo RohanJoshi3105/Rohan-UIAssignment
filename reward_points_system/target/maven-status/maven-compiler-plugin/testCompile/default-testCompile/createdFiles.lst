@@ -1,0 +1,3 @@
+com\example\reward_points_system\controllers\RewardPointsControllerTest.class
+com\example\reward_points_system\services\RewardPointsServiceTest.class
+com\example\reward_points_system\RewardPointsSystemApplicationTests.class
